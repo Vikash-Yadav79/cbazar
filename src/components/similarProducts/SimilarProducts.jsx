@@ -6,7 +6,7 @@ import './SimilarProducts.css';
 
 const SimilarProducts = () => {
     const location = useLocation();
-    const { title, varieties } = location.state || {}; // Safely extract data with fallback
+    const { title, varieties } = location.state || {}; 
 
     const navigate = useNavigate();
 

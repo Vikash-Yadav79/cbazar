@@ -1,0 +1,25 @@
+.saree-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.saree-card:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.saree-details {
+    margin-top: 15px;
+}
+
+.saree-details h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.saree-details p {
+    font-size: 16px;
+    color: #777;
+}
