@@ -93,7 +93,7 @@ import './CategoryDetails.css';
 
 const CategoryDetails = () => {
     const location = useLocation();
-    const { title, varieties, category } = location.state || {}; // Include category in state
+    const { title, varieties, category } = location.state || {}; 
 
     const { addToCart } = useContext(CartContext);
 
@@ -114,8 +114,8 @@ const CategoryDetails = () => {
             name: title,
             imageUrl: variety.imageUrl,
             price: variety.price,
-            size: selectedSize, // Use selected size
-            category: category, // Include category information
+            size: selectedSize, 
+            category: category, 
         };
         addToCart(product);
     };

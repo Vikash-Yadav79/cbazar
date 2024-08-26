@@ -14,6 +14,7 @@ import ProductDetails from './components/productDetails/ProductDetails';
 import CategoryDetails from './components/category/CategoryDetails';
 import LoginModal from './components/login/LoginModal';
 import PaymentPage from './components/paymentpage/PaymentPage';
+import PreDrapedSarees from './components/predrapedsarees/PreDrapedSarees';
 
 function App() {
   // State to manage the login modal visibility
@@ -24,9 +25,8 @@ function App() {
 
   return (
     <Router>
-      {/* Pass the openLoginModal function to the Header to trigger the modal */}
       <Header openLoginModal={openLoginModal} />
-      <LoginModal isOpen={isLoginModalOpen} onClose={closeLoginModal} /> {/* Render the LoginModal component */}
+      <LoginModal isOpen={isLoginModalOpen} onClose={closeLoginModal} />
 
       <Routes>
         <Route
@@ -45,6 +45,7 @@ function App() {
         <Route path="/similar-products" element={<SimilarProducts />} />
         <Route path="/product-details" element={<ProductDetails />} />
         <Route path="/payment" element={<PaymentPage />} />
+        <Route path="/pre-draped-sarees" element={<PreDrapedSarees />} />
       </Routes>
 
       <Footer />
