@@ -1,0 +1,99 @@
+.advertisement-container {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card {
+    border: none;
+    height: 300px; /* Consistent height */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Ensure content stacks vertically */
+    justify-content: space-between; /* Space content evenly */
+}
+
+.card-left, .card-right {
+    flex: 1;
+}
+
+.card-middle {
+    flex: 2;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.carousel-inner img {
+    max-height: 100%; /* Ensure images do not exceed the box height */
+    object-fit: cover;
+    width: 100%;
+}
+
+.testimonial-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    text-align: center;
+    flex: 1; /* Ensure the box takes available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.testimonial-box p:last-child {
+    font-size: 14px;
+    color: #666;
+}
+
+.instagram-section {
+    height: 100%;
+    background-image: url('https://images.cbazaar.com/PL_Images/Blog-52726.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.instagram-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+}
+
+.ad-feature-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ad-feature-box {
+    width: 30%;
+    text-align: center;
+}
+
+.feature-icon {
+    width: 40px;
+    height: 40px;
+}
+
+h5 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 14px;
+}

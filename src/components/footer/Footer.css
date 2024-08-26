@@ -1,0 +1,100 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .footer-secure span,
+  .footer-contact span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .payment-icons,
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .payment-icons svg,
+  .social-icons svg {
+    color: #fff;
+  }
+  
+  .payment-icons svg:hover,
+  .social-icons svg:hover {
+    color: #007bff; /* Change this to your preferred hover color */
+  }
+  
+  .footer-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  
+  .footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .footer-column ul li:hover {
+    text-decoration: underline;
+  }
+  
+  .newsletter-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newsletter {
+    display: flex;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    border: none;
+    flex: 1;
+  }
+  
+  .newsletter button {
+    padding: 10px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #777;
+  }
+  
+  .download-app {
+    margin-top: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    font-size: 14px;
+  }
+  

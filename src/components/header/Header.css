@@ -1,0 +1,171 @@
+/* Basic styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Top Bar */
+  .top-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  /* Main Header with Logo, Search Bar, and User Actions */
+  .main-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    text-transform: lowercase;
+  }
+  
+  .logo-dot {
+    color: #f50057;
+    font-size: 20px;
+    vertical-align: super;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 240%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .search-bar button i {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .search-bar button:hover i {
+    color: #333;
+  }
+  
+  /* User Actions */
+  .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .user-action-item {
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .action-name {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Category Navbar */
+  .category-navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .nav-item:hover {
+    color: #f50057;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 20px;
+    width: 1000px;
+  }
+  
+  .nav-item:hover .dropdown-menu {
+    display: flex;
+  }
+  
+  .dropdown-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .dropdown-header {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f50057;
+    padding-bottom: 5px;
+  }
+  
+  .dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-item {
+    margin: 8px 0;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    color: #f50057;
+  }
+  
